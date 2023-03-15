@@ -1,17 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
+@font-face {
+  font-family: 'uni_sansheavy_caps';
+  src: url('uni_sans_heavy-webfont.woff2') format('woff2'),
+       url('uni_sans_heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
     text-align: center;
     font-family: 'Inter';
 }
 
 #body1 {
-    background-color: darkgray;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.bodyone {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #a711b0;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
     padding-top: 50px;
-    height: 250px;
+    height: 350px;
+    text-shadow: 0 0 100px #a711b0;
 }
 .Topnav ul {
     list-style-type: none;
@@ -47,11 +66,30 @@ body {
     align-items: center;
   }
   .buttons {
-    background: #222;
-    border: solid 2px #222;
+    background: #a711b0;
+    border: solid 2px #a711b0;
     padding: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
     color: white;
+    text-decoration: none;
+  }
+  #discordfont {
+    font-family: 'uni_sansheavy_caps','Segoe UI', Tahoma, Verdana, sans-serif;
+  }
+  .dlogo {
+    height: 16px;
+    padding-right: 6px;
+  }
+  #copyright {
+    color: white;
+    margin-top: auto;
+    background-color: #303030;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
   }
