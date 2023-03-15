@@ -25,6 +25,8 @@ body {
     border-color: #a711b0;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    min-height: 96.5vh;
 }
 
 .logo {
@@ -74,6 +76,7 @@ body {
     border-radius: 3px;
     color: white;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   }
   #discordfont {
     font-family: 'uni_sansheavy_caps','Segoe UI', Tahoma, Verdana, sans-serif;
@@ -82,7 +85,7 @@ body {
     height: 16px;
     padding-right: 6px;
   }
-  #copyright {
+  .copyright {
     color: white;
     margin-top: auto;
     background-color: #303030;
@@ -91,4 +94,12 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+  }
+  .copyright p {
+    font-weight: 100;
+  }
+  #middlesec1id {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
   }
