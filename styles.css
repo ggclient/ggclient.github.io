@@ -8,6 +8,9 @@
   font-style: normal;
 
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 
 body {
   text-align: center;
@@ -22,17 +25,20 @@ body {
 
 .bodyone {
   border-style: solid;
-  border-width: 4px;
+  border-width: 5px;
   border-color: #a711b0;
   margin: 0;
   padding: 0;
-  min-height: 96.5vh;
+  min-height: 96.4vh;
 }
 
 .logo {
   padding-top: 50px;
   height: 350px;
-  text-shadow: 0 0 100px #a711b0;
+}
+.features_logo {
+  padding-top: 50px;
+  height: 250px;
 }
 
 .Topnav ul {
@@ -83,7 +89,19 @@ body {
   text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
-
+.return_button {
+  background: #a711b0;
+  border: solid 2px #a711b0;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
 #discordfont {
   font-family: 'uni_sansheavy_caps', 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
@@ -112,5 +130,12 @@ body {
 #middlesec1id {
   color: white;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-style: italic;
+}
+.features_list {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.features_list h1 {
   font-style: italic;
 }
