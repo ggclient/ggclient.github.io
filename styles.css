@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+@font-face {
+  font-family: 'uni_sansheavy_caps';
+  src: url('uni_sans_heavy-webfont.woff2') format('woff2'),
+    url('uni_sans_heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  text-align: center;
+  font-family: 'Inter';
+}
+
+#body1 {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.bodyone {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #a711b0;
+  margin: 0;
+  padding: 0;
+  min-height: 96.4vh;
+}
+
+.logo {
+  padding-top: 50px;
+  height: 350px;
+}
+.features_logo {
+  padding-top: 50px;
+  height: 250px;
+}
+
+.Topnav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a711b0;
+}
+
+.Topnav_1 {
+  float: left;
+}
+
+.Topnav_2 {
+  float: right;
+}
+
+.Topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'MV Boli', 'Arial';
+}
+
+.Topnav li a:hover {
+  background-color: rgb(51, 156, 255);
+}
+
+.list {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  background: #a711b0;
+  border: solid 2px #a711b0;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.return_button {
+  background: #a711b0;
+  border: solid 2px #a711b0;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#discordfont {
+  font-family: 'uni_sansheavy_caps', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.dlogo {
+  height: 16px;
+  padding-right: 6px;
+}
+
+.copyright {
+  color: white;
+  margin-top: auto;
+  background-color: #303030;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.copyright p {
+  font-weight: 100;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#middlesec1id {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-style: italic;
+}
+.features_list {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.features_list h1 {
+  font-style: italic;
+}
